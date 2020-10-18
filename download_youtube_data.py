@@ -4,7 +4,7 @@ import pprint
 import sys
 from googleapiclient.discovery import build
 
-my_api_key ="AIzaSyCFUijVmapHuWI9u4ECUOo8gWqgY17Ox68"
+my_api_key = config.api_key
 
 def youtube_data(video_id):
     service = build("youtube", "v3", developerKey=my_api_key)
