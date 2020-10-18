@@ -5,7 +5,6 @@ import config
 
 my_api_key = config.my_api_key
 my_cse_id = config.my_cse_id
-my_search_topic = 'Call of Duty'
 
 def google_search(search_term, **kwargs):
 	service = build("customsearch", "v1", developerKey=my_api_key)
